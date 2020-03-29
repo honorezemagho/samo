@@ -1,0 +1,32 @@
+<?php
+
+return [
+
+    'users'                       => 'Users',
+    'roles'                       => 'Roles',
+    'identification'              => 'Identification',
+    'deposit'                     => 'Deposit',
+    'withdraw'                    => 'Withdraw',
+    'account_charge'             => 'Recharger mon compte',
+    'profile'                    => 'My Profile',
+    'add_new_user'               => 'Add new User',
+    'email'                       => 'Email',
+    'firstname'                   => 'Firstname',
+    'lastname'                    => 'Lastname',
+    'identification_piece'        => "Identification Piece",
+    'country'                     => 'Country',
+    'photo'                       => 'Photo',
+    'phone'                       => 'Phone',
+    'password'                    => 'Password',
+    'or'                          => 'or',
+    'save'                        => 'Save',
+    'status'                      => 'Status',
+    'actions'                     => 'Actions',
+    'active'                      => 'Active',
+    'inactive'                    => 'Inactive',
+    'unactivated_account'         => "This account is not activated or doesn't exist",
+    'verify_email_sent'           => 'A fresh verification link has been sent to your email address.',
+    'verify_check_your_email'     => 'Before proceeding, please check your email for a verification link.',
+    'verify_if_not_recieved'      => 'If you did not receive the email',
+    'verify_request_another'      => 'click here to request another',
+];

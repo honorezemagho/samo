@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+   'users'                        => 'Utilisateurs',
+   'roles'                        => 'Roles',
+    'identification'              => 'Identification',
+    'deposit'                     => 'Dépôt',
+    'withdraw'                    => 'Retrait',
+    'dashboard'                   => 'Tableau de Bord',
+    'account_charge'              => 'Recharger mon compte',
+    'profile'                     => 'Mon Profil',
+    'add_new_user'                => 'Ajouter un nouvel utilisateur',
+    'email'                       => 'Email',
+    'firstname'                   => 'Prénom',
+    'lastname'                    => 'Nom',
+    'identification_piece'        => "Pièce d'identité",
+    'country'                     => 'Pays',
+    'photo'                       => 'Photo',
+    'phone'                       => 'Téléphone',
+    'password'                    => 'Mot de passe',
+    'or'                          => 'ou',
+    'save'                        => 'Enregistrer',
+    'status'                      => 'Statut',
+    'actions'                     => 'Actions',
+    'active'                      => 'Actif',
+    'inactive'                    => 'Inactif',
+    'unactivated_account'         => "Ce Compte n'existe pas ou n'est pas encore activé",
+    'verify_request_another'      => 'click here to request another',
+];
