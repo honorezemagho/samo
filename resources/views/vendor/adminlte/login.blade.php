@@ -39,7 +39,7 @@
                 <form action="{{ $login_url }}" method="post">
                     {{ csrf_field() }}
                     <div class="input-group mb-3">
-                        <input type="email" name="email" class="form-control {{ $errors->has('email') ? 'is-invalid' : '' }}" value="{{ old('email') }}" placeholder="{{ __('adminlte::adminlte.email') }}" autofocus>
+                        <input type="text" name="email" class="form-control {{ $errors->has('email') ? 'is-invalid' : '' }}" value="{{ old('email') }}" placeholder="{{ __('adminlte::adminlte.email') }} {{ __('panel.or') }} {{ __('panel.phone') }}" autofocus>
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-envelope"></span>
@@ -72,7 +72,7 @@
                             </div>
                         </div>
                         <div class="col-4">
-                            <button type="submit" class="btn btn-primary btn-block btn-flat">
+                            <button type="submit" class="btn btn-primary ">
                                 {{ __('adminlte::adminlte.sign_in') }}
                             </button>
                         </div>

@@ -2,8 +2,10 @@
 
 return [
 
-    'full_name'                   => 'Full name',
+    'first_name'                   => 'First name',
+    'last_name'                   => 'Last name',
     'email'                       => 'Email',
+    'phone'                       => 'Phone',
     'password'                    => 'Password',
     'retype_password'             => 'Retype password',
     'remember_me'                 => 'Remember Me',
