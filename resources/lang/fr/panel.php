@@ -25,6 +25,6 @@ return [
     'actions'                     => 'Actions',
     'active'                      => 'Actif',
     'inactive'                    => 'Inactif',
-    'unactivated_account'         => "Ce Compte n'existe pas ou n'est pas encore activé",
+    'unactivated_account'         => "Ce Compte n'est pas encore activé",
     'verify_request_another'      => 'click here to request another',
 ];

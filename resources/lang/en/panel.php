@@ -24,7 +24,7 @@ return [
     'actions'                     => 'Actions',
     'active'                      => 'Active',
     'inactive'                    => 'Inactive',
-    'unactivated_account'         => "This account is not activated or doesn't exist",
+    'unactivated_account'         => "This account is not activated",
     'verify_email_sent'           => 'A fresh verification link has been sent to your email address.',
     'verify_check_your_email'     => 'Before proceeding, please check your email for a verification link.',
     'verify_if_not_recieved'      => 'If you did not receive the email',
