@@ -1,5 +1,6 @@
 # Created by .ignore support plugin (hsz.mobi)
 /vendor
-.idea/inspectionProfiles/
+.idea/
+.vscode/
 public/.well-known/
 /node_modules

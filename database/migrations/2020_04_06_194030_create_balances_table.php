@@ -12,9 +12,12 @@ class CreateBalancesTable extends Migration
      * @return void
      */
     public function up()
+
     {
         Schema::create('balances', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('amount');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }

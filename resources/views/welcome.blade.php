@@ -82,6 +82,12 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                    @php
+                        use Akaunting\Money\Currency;
+                        use Akaunting\Money\Money;
+                            echo Money::XAF(500, true); // '$500.00' converted
+                            echo new Money(500, new Currency('XAF'), true); // '$500.00' converted
+                    @endphp
                 </div>
 
                 <div class="links">
