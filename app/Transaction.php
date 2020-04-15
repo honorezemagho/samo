@@ -11,6 +11,7 @@ class Transaction extends Model
     //
     protected $guarded = ['id'];
 
+    protected $fillable = ['code','transaction_type'];
 
     public function user()
     {
