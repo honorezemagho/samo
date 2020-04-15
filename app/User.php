@@ -53,4 +53,27 @@ public function photo(){
 public function identification_piece(){
     return $this->belongsTo('App\Identification', 'identification_id');
 }
+
+    public function getNameAttribute(){
+        return  $this->first_name.' '.$this->last_name;
+    }
+
+    public function withdraw()
+    {
+        return $this->hasMany('App\Withdraw', 'id', 'user_id');
+    }
+
+    public function deposit()
+    {
+        return $this->hasMany('App\Deposit', 'id', 'user_id');
+    }
+    public function transaction()
+    {
+        return $this->hasMany('App\Transaction', 'id', 'user_id');
+    }
+
+    public function  loans()
+    {
+        return $this->hasMany(Loan::class);
+    }
 }
