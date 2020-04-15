@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Account;
 use App\Identification;
 use App\Pays;
 use App\User;
@@ -54,6 +55,7 @@ class AdminUsersController extends Controller
             'password' => 'required|string|min:8',
         ]);
         $input = $request->all();
+        
         User::create($input);
         return redirect(route('users.index'));
     }

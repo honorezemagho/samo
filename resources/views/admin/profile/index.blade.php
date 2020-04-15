@@ -29,7 +29,7 @@
                         </li>--}}
                     </ul>
 
-                    <a href="#" class="btn btn-primary btn-block"><b>Recharger mon compte</b></a>
+                    <a href="#" class="btn btn-primary btn-block"><b>@lang('panel.account_charge')</b></a>
                 </div>
                 <!-- /.card-body -->
             </div>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="form-group row">
                     <div class="offset-sm-2 col-sm-10">
-                        <button type="submit" class="btn btn-primary">Mettre à Jour</button>
+                        <button type="submit" class="btn btn-primary">@lang('panel.update')</button>
                     </div>
                 </div>
             </form>

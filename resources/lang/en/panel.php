@@ -25,8 +25,10 @@ return [
     'active'                      => 'Active',
     'inactive'                    => 'Inactive',
     'unactivated_account'         => "This account is not activated",
-    'verify_email_sent'           => 'A fresh verification link has been sent to your email address.',
-    'verify_check_your_email'     => 'Before proceeding, please check your email for a verification link.',
+    'accounts'                    => 'Accounts',
+    'secret_code'                 => 'Code Secret',
+    'balance'                     => 'Balance',
+    'update'                      => 'Mettre à Jour',
     'verify_if_not_recieved'      => 'If you did not receive the email',
     'verify_request_another'      => 'click here to request another',
 ];

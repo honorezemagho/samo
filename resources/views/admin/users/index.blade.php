@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
             <h1 class="text-center">@lang('panel.users')</h1><br>
-            <a href="{{route('users.create')}}" class="btn btn-primary float-right">Ajouter un Utilisateur</a>
+            <a href="{{route('users.create')}}" class="btn btn-primary float-right">@lang("panel.add_new_user")</a>
     </div>
 
 

@@ -193,12 +193,23 @@ return [
         ],
 
         [
+            'text' => "accounts",
+            'url'  => 'admin/accounts',
+            'icon' => 'fas fa-fw fa-users',
+            'lang' => 'panel.accounts',
+        ],
+        [
             'text' => "users",
             'url'  => 'admin/users',
             'icon' => 'fas fa-fw fa-users',
             'lang' => 'panel.users',
         ],
-
+        [
+            'text' => "services",
+            'url'  => 'admin/services',
+            'icon' => 'fas fa-fw fa-users',
+            'lang' => 'panel.users',
+        ],
         [
             'text'    => 'multilevel',
             'icon'    => 'fas fa-fw fa-share',

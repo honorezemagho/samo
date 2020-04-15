@@ -26,5 +26,10 @@ return [
     'active'                      => 'Actif',
     'inactive'                    => 'Inactif',
     'unactivated_account'         => "Ce Compte n'est pas encore activé",
-    'verify_request_another'      => 'click here to request another',
+    'accounts'                    => 'Comptes',
+    'secret_code'                 => 'Code Secret',
+    'balance'                     => 'Solde',
+    'update'                      => 'Mettre à Jour',
+    'verify_if_not_recieved'      => 'If you did not receive the email',
+    'verify_request_another'      => 'click here to request another'
 ];
