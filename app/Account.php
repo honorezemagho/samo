@@ -6,8 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Account extends Model
 {
-    //
-    protected $fillable = ['amount', 'user_id'];
+    protected $fillable = ['amount', 'user_id', 'secret_code'];
 
     public function getBalanceAttribute(){
         return $this->amount;

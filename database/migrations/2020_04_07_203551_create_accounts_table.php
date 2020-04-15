@@ -8,13 +8,16 @@ class CreateAccountsTable extends Migration
 {
     /**
      * Run the migrations.
-     *
+     z
      * @return void
      */
     public function up()
     {
         Schema::create('accounts', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('user_id');
+            $table->integer('amount')->default(0);
+            $table->string('secret_code');
             $table->timestamps();
         });
     }
