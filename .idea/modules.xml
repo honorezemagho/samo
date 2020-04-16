@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../cardio/.idea/cardio.iml" filepath="$PROJECT_DIR$/../cardio/.idea/cardio.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/samo.iml" filepath="$PROJECT_DIR$/.idea/samo.iml" />
     </modules>
   </component>
