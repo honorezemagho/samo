@@ -1,6 +1,7 @@
 @extends('adminlte::page')
 
 @section('content')
+
     <h1 class="text-center">@lang('panel.profile')</h1><br>
     <div class="container-fluid">
         <div class="row">
@@ -13,13 +14,12 @@
                              alt="User profile picture">
                     </div>
 
-                    <h3 class="profile-username text-center">Nina Mcintire</h3>
-
-                    <p class="text-muted text-center">Cameroun</p>
+                    <h3 class="profile-username text-center"> {{$user->firstname }}  {{$user->lastname}}</h3>
+                    <p class="text-muted text-center"> {{$user->land->name}}</p>
 
                     <ul class="list-group list-group-unbordered mb-3">
                         <li class="list-group-item">
-                            <b>Solde</b> <a class="float-right">1,322</a>
+                            <b>Solde</b> <a class="float-right">{{$user->account->amount}}</a>
                         </li>
                      {{--   <li class="list-group-item">
                             <b>Following</b> <a class="float-right">543</a>

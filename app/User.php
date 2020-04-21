@@ -78,6 +78,6 @@ public function identification_piece(){
 
     public function  loans()
     {
-        return $this->hasMany(Loan::class);
+        return $this->hasMany('App\Loan','loanPackage_id');
     }
 }
