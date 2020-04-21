@@ -13,8 +13,8 @@ class Account extends Model
     }
 
     public function getVerifyBalanaceAttribute($amount) {
-        $verifyBalance = $this->amount - amount;
-        if (amount > 0 && verifyBalance >= 0) {
+        $verifyBalance = $this->amount - $amount;
+        if ($amount > 0 && $verifyBalance >= 0) {
             return true;
         }
         else{
@@ -23,7 +23,7 @@ class Account extends Model
     }
 
     public function getisValidAmountAttribute($amount){
-        if (amount > 0) {
+        if ($amount > 0) {
             return true;
         }
         else{
