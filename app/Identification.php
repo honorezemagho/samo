@@ -7,5 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Identification extends Model
 {
     //
-    protected $fillable = ['name', 'identification_en', 'identification_fr'];
+    protected $fillable = ['code', 'identification_en', 'identification_fr'];
 }
